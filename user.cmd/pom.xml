@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.ob</groupId>
 	<artifactId>user.cmd</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>user.cmd</name>
 	<description>User cmd api</description>
 	<properties>

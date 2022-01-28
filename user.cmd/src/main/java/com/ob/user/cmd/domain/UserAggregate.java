@@ -16,4 +16,12 @@ public class UserAggregate extends AggregateRoot {
                 .userName(registerUserCommand.getUserName())
                 .build());
     }
+
+    public void apply(UserRegisteredEvent event) {
+        this.id = event.getId();
+        this.active = true;
+        this.balance = event.getUserDeposit();
+    }
+
+
 }

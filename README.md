@@ -30,3 +30,7 @@ to start kafka in docker.
 ### Mysql client - Adminer
 ```docker run -it -d -name adminer -p 8080:8080 --network obinnanetwork -e ADMINER_DEFAULT_SERVER=mysql-contaner --restart always adminer:latest```
 
+## Some CQRS Notes from DDD
+- Aggregates are a group of entities that are kept in a consistent state.
+- The Aggregate root is an entity within the aggregate responsible for maintaining the consistent state.
+- The Aggregate is the key building block for any CQRS application.

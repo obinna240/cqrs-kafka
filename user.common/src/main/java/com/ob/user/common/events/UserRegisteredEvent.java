@@ -15,6 +15,7 @@ import java.time.Instant;
 @AllArgsConstructor
 public class UserRegisteredEvent extends BaseEvents {
 
+    private String id;
     private String userName;
     private Instant dateUserCreated;
     private UserType userType;

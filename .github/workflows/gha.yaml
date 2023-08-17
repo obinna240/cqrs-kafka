@@ -1,0 +1,5 @@
+name: cqrs api release demo
+run-name: ${{ github.actor }} running cqrs demo
+on:
+  push
+runs-on: ubuntu-latest

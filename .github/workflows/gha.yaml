@@ -3,7 +3,7 @@ run-name: ${{ github.actor }} running cqrs demo
 on:
   push
 jobs:
-  Explore GHA
+  Explore_GHA
 runs-on: ubuntu-latest
 steps:
   - uses: actions/checkout@v3

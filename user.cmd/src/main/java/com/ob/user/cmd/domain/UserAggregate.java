@@ -17,6 +17,8 @@ public class UserAggregate extends AggregateRoot {
                 .build());
     }
 
+
+
     public void apply(UserRegisteredEvent event) {
         this.id = event.getId();
         this.active = true;
